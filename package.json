@@ -1,15 +1,16 @@
 {
-  "name": "SorteiObaum",
-  "version": "3.0.0",
-  "description": "Para sortear nomes na live do Dragão de leite.",
-  "main": "main",
+  "name": "sorteiobaum",
+  "version": "1.0.0",
+  "description": "Este é um projeto feito como parte de um estudo de Node e Electron. Esta é uma versão não empacotada do programa, para roda-la você precisa do NODEjs instalado em sua maquina.",
+  "main": "main.js",
   "scripts": {
-    "start": "electron ."
+    "start": "electron .",
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
   "author": "",
   "license": "ISC",
-  "devDependencies": {
-    "electron": "^30.0.1"
+  "dependencies": {
+    "electron": "^32.1.0",
+    "sorteiobaum": "file:"
   }
 }
